@@ -13,7 +13,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     splash = QtWidgets.QSplashScreen(QPixmap(f"{BASE_DIR / 'logo256.png'}"))
     splash.setFont(QFont("microsoft yahei", 12, QFont.Bold))
-    splash.showMessage("欢迎使用PDF Tools !", QtCore.Qt.AlignCenter | QtCore.Qt.AlignBottom, QtCore.Qt.lightGray)
+    splash.showMessage("欢迎使用PDF Tools !", QtCore.Qt.AlignCenter | QtCore.Qt.AlignBottom, QtCore.Qt.cyan)
     splash.show()  # 显示启动界面
     time.sleep(1)
     QtWidgets.qApp.processEvents()  # 处理主进程事件

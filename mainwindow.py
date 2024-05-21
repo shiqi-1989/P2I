@@ -7,8 +7,6 @@ from P2G import Ui_mainWindow, BASE_DIR
 from PdfTheard import PdfThead
 
 
-
-
 class MyMainWindow(QMainWindow, Ui_mainWindow):
     def __init__(self, parent=None):
         super(MyMainWindow, self).__init__(parent)
